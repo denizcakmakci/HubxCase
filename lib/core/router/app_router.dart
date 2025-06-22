@@ -14,5 +14,9 @@ class AppRouter extends RootStackRouter {
       page: SplashRoute.page,
       initial: true,
     ),
+    CustomRoute<OnboardWrapperRoute>(
+      page: OnboardWrapperRoute.page,
+      transitionsBuilder: TransitionsBuilders.fadeIn,
+    ),
   ];
 }
