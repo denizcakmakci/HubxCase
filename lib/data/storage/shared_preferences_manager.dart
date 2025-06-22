@@ -16,6 +16,5 @@ class SharedPreferencesManager {
 
   Future<void> setSeenOnboarding({required bool value}) async {
     await _prefs?.setBool(_keySeenOnboarding, value);
-    print(hasSeenOnboarding);
   }
 }
