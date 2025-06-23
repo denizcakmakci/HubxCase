@@ -2,7 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:hubx_case_study/core/constants/assets.dart';
 import 'package:hubx_case_study/core/localization/app_localizations.dart';
-import 'package:hubx_case_study/data/storage/shared_preferences_manager.dart';
+import 'package:hubx_case_study/infra/storage/shared_preferences_manager.dart';
 import 'package:hubx_case_study/presentation/features/paywall/bloc/paywall_bloc.dart';
 import 'package:hubx_case_study/presentation/features/paywall/bloc/paywall_event.dart';
 import 'package:hubx_case_study/presentation/features/paywall/paywall_model.dart';

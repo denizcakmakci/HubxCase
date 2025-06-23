@@ -32,9 +32,9 @@ class _SplashViewState extends State<SplashView> {
     if (!mounted) return;
 
     if (seenOnboarding) {
-      // TODO(deniz): Go home
+      await context.router.replace(const MainTabRoute());
     } else {
-      // TODO(deniz): Go onboard
+      await context.router.replace(const OnboardWrapperRoute());
     }
   }
 
