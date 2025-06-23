@@ -93,4 +93,31 @@ class AppLocalizationsEn extends AppLocalizations {
 
   @override
   String get termsPrivacyRestore => 'Terms  •  Privacy  •  Restore';
+
+  @override
+  String get hiPlantLover => 'Hi, plant lover!';
+
+  @override
+  String get goodAfternoon => 'Good Afternoon! ⛅';
+
+  @override
+  String get searchForPlants => 'Search for plants';
+
+  @override
+  String get freePremiumAvailable => 'FREE Premium Available';
+
+  @override
+  String get tapToUpgrade => 'Tap to upgrade your account!';
+
+  @override
+  String get home => 'Home';
+
+  @override
+  String get diagnose => 'Diagnose';
+
+  @override
+  String get myGarden => 'My Garden';
+
+  @override
+  String get profile => 'Profile';
 }

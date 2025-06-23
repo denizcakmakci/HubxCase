@@ -18,6 +18,11 @@ class Assets {
   static const String message = 'assets/icons/message.svg';
   static const String chevronRight = 'assets/icons/chevron_right.svg';
   static const String search = 'assets/icons/search.svg';
+  static const String diagnose = 'assets/icons/diagnose.svg';
+  static const String identify = 'assets/icons/identify.svg';
+  static const String myGarden = 'assets/icons/my_garden.svg';
+  static const String profile = 'assets/icons/profile.svg';
+  static const String home = 'assets/icons/home.svg';
 
   //LOTIE
   static const String plantSplash = 'assets/lottie/plant_splash.json';

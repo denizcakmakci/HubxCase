@@ -253,6 +253,60 @@ abstract class AppLocalizations {
   /// In en, this message translates to:
   /// **'Terms  •  Privacy  •  Restore'**
   String get termsPrivacyRestore;
+
+  /// Welcome message shown to the user when they open the app
+  ///
+  /// In en, this message translates to:
+  /// **'Hi, plant lover!'**
+  String get hiPlantLover;
+
+  /// Greeting shown based on the time of day
+  ///
+  /// In en, this message translates to:
+  /// **'Good Afternoon! ⛅'**
+  String get goodAfternoon;
+
+  /// Placeholder or label for plant search field
+  ///
+  /// In en, this message translates to:
+  /// **'Search for plants'**
+  String get searchForPlants;
+
+  /// Text indicating that a free premium offer is available
+  ///
+  /// In en, this message translates to:
+  /// **'FREE Premium Available'**
+  String get freePremiumAvailable;
+
+  /// CTA encouraging the user to upgrade their account
+  ///
+  /// In en, this message translates to:
+  /// **'Tap to upgrade your account!'**
+  String get tapToUpgrade;
+
+  /// Navigation label for the home screen
+  ///
+  /// In en, this message translates to:
+  /// **'Home'**
+  String get home;
+
+  /// Navigation label for the plant diagnosis screen
+  ///
+  /// In en, this message translates to:
+  /// **'Diagnose'**
+  String get diagnose;
+
+  /// Navigation label for the user's plant collection
+  ///
+  /// In en, this message translates to:
+  /// **'My Garden'**
+  String get myGarden;
+
+  /// Navigation label for the user's profile
+  ///
+  /// In en, this message translates to:
+  /// **'Profile'**
+  String get profile;
 }
 
 class _AppLocalizationsDelegate

@@ -118,5 +118,41 @@
     "termsPrivacyRestore": "Terms  •  Privacy  •  Restore",
     "@termsPrivacyRestore": {
         "description": "Combined label for Terms, Privacy Policy and Restore option"
+    },
+    "hiPlantLover": "Hi, plant lover!",
+    "@hiPlantLover": {
+        "description": "Welcome message shown to the user when they open the app"
+    },
+    "goodAfternoon": "Good Afternoon! ⛅",
+    "@goodAfternoon": {
+        "description": "Greeting shown based on the time of day"
+    },
+    "searchForPlants": "Search for plants",
+    "@searchForPlants": {
+        "description": "Placeholder or label for plant search field"
+    },
+    "freePremiumAvailable": "FREE Premium Available",
+    "@freePremiumAvailable": {
+        "description": "Text indicating that a free premium offer is available"
+    },
+    "tapToUpgrade": "Tap to upgrade your account!",
+    "@tapToUpgrade": {
+        "description": "CTA encouraging the user to upgrade their account"
+    },
+    "home": "Home",
+    "@home": {
+        "description": "Navigation label for the home screen"
+    },
+    "diagnose": "Diagnose",
+    "@diagnose": {
+        "description": "Navigation label for the plant diagnosis screen"
+    },
+    "myGarden": "My Garden",
+    "@myGarden": {
+        "description": "Navigation label for the user's plant collection"
+    },
+    "profile": "Profile",
+    "@profile": {
+        "description": "Navigation label for the user's profile"
     }
 }
