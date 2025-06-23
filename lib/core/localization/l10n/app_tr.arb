@@ -1,0 +1,158 @@
+{
+    "@@locale": "tr",
+    "startedHeadlineText": "{highlight} uygulamasına hoş geldiniz",
+    "@startedHeadlineText": {
+        "description": "",
+        "placeholders": {
+            "highlight": {
+                "type": "String"
+            }
+        }
+    },
+    "startedHighlightWord": "PlantApp",
+    "@startedHighlightWord": {
+        "description": ""
+    },
+    "startedInfoText": "3000'den fazla bitkiyi %88 doğrulukla tanımlayın.",
+    "@startedInfoText": {
+        "description": ""
+    },
+    "policyText": "İleri'ye dokunarak PlantID şartlarını kabul etmiş olursunuz ",
+    "@policyText": {
+        "description": ""
+    },
+    "termsOfUse": "Kullanım Koşulları",
+    "@termsOfUse": {
+        "description": ""
+    },
+    "privacyPolicy": "Gizlilik Politikası.",
+    "@privacyPolicy": {
+        "description": ""
+    },
+    "onboardFirstHeadlineText": "Bitkiyi {highlight} için bir fotoğraf çekin!",
+    "@onboardFirstHeadlineText": {
+        "description": "",
+        "placeholders": {
+            "highlight": {
+                "type": "String"
+            }
+        }
+    },
+    "onboardFirstHighlightWord": "tanımlamak",
+    "@onboardFirstHighlightWord": {
+        "description": ""
+    },
+    "onboardLastHeadlineText": "Bitki {highlight} alın",
+    "@onboardLastHeadlineText": {
+        "description": "",
+        "placeholders": {
+            "highlight": {
+                "type": "String"
+            }
+        }
+    },
+    "onboardLastHighlightWord": "bakım rehberlerini",
+    "@onboardLastHighlightWord": {
+        "description": ""
+    },
+    "startedButton": "Başla",
+    "@startedButton": {
+        "description": ""
+    },
+    "continueButton": "Devam et",
+    "@continueButton": {
+        "description": ""
+    },
+    "premium": "Premium",
+    "@premium": {
+        "description": "Premium abonelik bölümü başlığı"
+    },
+    "accessAllFeatures": "Tüm Özelliklerin Kilidini Aç",
+    "@accessAllFeatures": {
+        "description": "Tüm özelliklerin kullanılabileceğini belirten metin"
+    },
+    "unlimited": "Sınırsız",
+    "@unlimited": {
+        "description": "Sınırsız erişim anlamına gelen metin"
+    },
+    "plantIdentify": "Bitki Tanıma",
+    "@plantIdentify": {
+        "description": "Bitki tanımlama özelliği etiketi"
+    },
+    "faster": "Daha Hızlı",
+    "@faster": {
+        "description": "Hizmetin daha hızlı olduğunu belirten metin"
+    },
+    "process": "İşlem",
+    "@process": {
+        "description": "Tanımlama işlemiyle ilgili metin"
+    },
+    "oneMonth": "1 Ay",
+    "@oneMonth": {
+        "description": "1 aylık abonelik seçeneği etiketi"
+    },
+    "monthlyPrice": "₺2,99/ay, otomatik yenilenir",
+    "@monthlyPrice": {
+        "description": "Aylık fiyat ve otomatik yenileme bilgisi"
+    },
+    "oneYear": "1 Yıl",
+    "@oneYear": {
+        "description": "1 yıllık abonelik seçeneği etiketi"
+    },
+    "freeTrialNote": "İlk 3 gün ücretsiz, ardından ₺529,99/yıl",
+    "@freeTrialNote": {
+        "description": "Ücretsiz deneme ve yıllık ücret notu"
+    },
+    "save50": "%50 Tasarruf",
+    "@save50": {
+        "description": "Yüzde 50 indirim etiketli metin"
+    },
+    "tryFree": "3 gün ücretsiz dene",
+    "@tryFree": {
+        "description": "Ücretsiz deneme başlatma butonu metni"
+    },
+    "afterTrialNote": "3 günlük ücretsiz deneme süresinden sonra iptal etmediğiniz takdirde yıllık ₺274,99 ücretlendirilirsiniz. Yıllık abonelik otomatik yenilenir.",
+    "@afterTrialNote": {
+        "description": "Ücretsiz denemeden sonra yapılacak ücretlendirme açıklaması"
+    },
+    "termsPrivacyRestore": "Kullanım Şartları  •  Gizlilik  •  Geri Yükle",
+    "@termsPrivacyRestore": {
+        "description": "Kullanım Şartları, Gizlilik Politikası ve Geri Yükle seçeneklerinin birleşik etiketi"
+    },
+    "hiPlantLover": "Merhaba, bitki sever!",
+    "@hiPlantLover": {
+        "description": "Kullanıcı uygulamayı açtığında gösterilen karşılama mesajı"
+    },
+    "goodAfternoon": "İyi öğleden sonralar! ⛅",
+    "@goodAfternoon": {
+        "description": "Günün saatine göre gösterilen selamlama mesajı"
+    },
+    "searchForPlants": "Bitki ara",
+    "@searchForPlants": {
+        "description": "Bitki arama alanı için açıklama veya placeholder"
+    },
+    "freePremiumAvailable": "ÜCRETSİZ Premium Mevcut",
+    "@freePremiumAvailable": {
+        "description": "Ücretsiz premium teklifinin mevcut olduğunu belirten metin"
+    },
+    "tapToUpgrade": "Hesabınızı yükseltmek için dokunun!",
+    "@tapToUpgrade": {
+        "description": "Kullanıcıyı hesabını yükseltmeye teşvik eden CTA"
+    },
+    "home": "Ana Sayfa",
+    "@home": {
+        "description": "Ana ekran için navigasyon etiketi"
+    },
+    "diagnose": "Teşhis Et",
+    "@diagnose": {
+        "description": "Bitki teşhis ekranı için navigasyon etiketi"
+    },
+    "myGarden": "Bahçem",
+    "@myGarden": {
+        "description": "Kullanıcının bitkilerini gösteren ekran etiketi"
+    },
+    "profile": "Profil",
+    "@profile": {
+        "description": "Kullanıcının profil ekranı için navigasyon etiketi"
+    }
+}

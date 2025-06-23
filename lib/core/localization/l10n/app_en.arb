@@ -1,0 +1,158 @@
+{
+    "@@locale": "en",
+    "startedHeadlineText": "Welcome to {highlight}",
+    "@startedHeadlineText": {
+        "description": "",
+        "placeholders": {
+            "highlight": {
+                "type": "String"
+            }
+        }
+    },
+    "startedHighlightWord": "PlantApp",
+    "@startedHighlightWord": {
+        "description": ""
+    },
+    "startedInfoText": "Identify more than 3000+ plants and 88% accuracy.",
+    "@startedInfoText": {
+        "description": ""
+    },
+    "policyText": "By tapping next, you are agreeing to PlantID ",
+    "@policyText": {
+        "description": ""
+    },
+    "termsOfUse": "Terms of Use",
+    "@termsOfUse": {
+        "description": ""
+    },
+    "privacyPolicy": "Privacy Policy.",
+    "@privacyPolicy": {
+        "description": ""
+    },
+    "onboardFirstHeadlineText": "Take a photo to {highlight} the plant!",
+    "@onboardFirstHeadlineText": {
+        "description": "",
+        "placeholders": {
+            "highlight": {
+                "type": "String"
+            }
+        }
+    },
+    "onboardFirstHighlightWord": "identify",
+    "@onboardFirstHighlightWord": {
+        "description": ""
+    },
+    "onboardLastHeadlineText": "Get plant {highlight}",
+    "@onboardLastHeadlineText": {
+        "description": "",
+        "placeholders": {
+            "highlight": {
+                "type": "String"
+            }
+        }
+    },
+    "onboardLastHighlightWord": "care guides",
+    "@onboardLastHighlightWord": {
+        "description": ""
+    },
+    "startedButton": "Get Started",
+    "@startedButton": {
+        "description": ""
+    },
+    "continueButton": "Continue",
+    "@continueButton": {
+        "description": ""
+    },
+    "premium": "Premium",
+    "@premium": {
+        "description": "Title for the premium subscription section"
+    },
+    "accessAllFeatures": "Access All Features",
+    "@accessAllFeatures": {
+        "description": "Text indicating that all features are included"
+    },
+    "unlimited": "Unlimited",
+    "@unlimited": {
+        "description": "Text indicating unlimited access"
+    },
+    "plantIdentify": "Plant Identify",
+    "@plantIdentify": {
+        "description": "Feature label for identifying plants"
+    },
+    "faster": "Faster",
+    "@faster": {
+        "description": "Text indicating the service is faster"
+    },
+    "process": "Process",
+    "@process": {
+        "description": "Text related to faster processing of plant identification"
+    },
+    "oneMonth": "1 Month",
+    "@oneMonth": {
+        "description": "Label for 1 month subscription option"
+    },
+    "monthlyPrice": "$2.99/month, auto renewable",
+    "@monthlyPrice": {
+        "description": "Monthly price with auto-renew note"
+    },
+    "oneYear": "1 Year",
+    "@oneYear": {
+        "description": "Label for 1 year subscription option"
+    },
+    "freeTrialNote": "First 3 days free, then $529.99/year",
+    "@freeTrialNote": {
+        "description": "Note indicating free trial and yearly charge"
+    },
+    "save50": "Save 50%",
+    "@save50": {
+        "description": "Label indicating 50% discount"
+    },
+    "tryFree": "Try free for 3 days",
+    "@tryFree": {
+        "description": "Call-to-action button for starting free trial"
+    },
+    "afterTrialNote": "After the 3-day free trial period you’ll be charged ₺274.99 per year unless you cancel before the trial expires. Yearly Subscription is Auto-Renewable.",
+    "@afterTrialNote": {
+        "description": "Explanation about subscription after free trial period"
+    },
+    "termsPrivacyRestore": "Terms  •  Privacy  •  Restore",
+    "@termsPrivacyRestore": {
+        "description": "Combined label for Terms, Privacy Policy and Restore option"
+    },
+    "hiPlantLover": "Hi, plant lover!",
+    "@hiPlantLover": {
+        "description": "Welcome message shown to the user when they open the app"
+    },
+    "goodAfternoon": "Good Afternoon! ⛅",
+    "@goodAfternoon": {
+        "description": "Greeting shown based on the time of day"
+    },
+    "searchForPlants": "Search for plants",
+    "@searchForPlants": {
+        "description": "Placeholder or label for plant search field"
+    },
+    "freePremiumAvailable": "FREE Premium Available",
+    "@freePremiumAvailable": {
+        "description": "Text indicating that a free premium offer is available"
+    },
+    "tapToUpgrade": "Tap to upgrade your account!",
+    "@tapToUpgrade": {
+        "description": "CTA encouraging the user to upgrade their account"
+    },
+    "home": "Home",
+    "@home": {
+        "description": "Navigation label for the home screen"
+    },
+    "diagnose": "Diagnose",
+    "@diagnose": {
+        "description": "Navigation label for the plant diagnosis screen"
+    },
+    "myGarden": "My Garden",
+    "@myGarden": {
+        "description": "Navigation label for the user's plant collection"
+    },
+    "profile": "Profile",
+    "@profile": {
+        "description": "Navigation label for the user's profile"
+    }
+}
