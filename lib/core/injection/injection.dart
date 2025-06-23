@@ -1,4 +1,4 @@
-import 'package:dio/dio.dart';
+import 'package:hubx_case_study/core/errors/defaults_error_factory.dart';
 import 'package:hubx_case_study/core/errors/error_separator.dart';
 import 'package:hubx_case_study/data/repositories/plant_repository.dart';
 import 'package:hubx_case_study/data/use_cases/get_plant_category_use_case.dart';
