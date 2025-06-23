@@ -12,8 +12,10 @@ class AppColors {
   static const lighterGray = Color(0xFFAFAFAF);
   static const paywallBG = Color(0xFF101E17);
   static const premiumBoxColor = Color(0xFF24201A);
-
+  static const green = Color(0xFF2CCC80);
   static const yellow = Color(0xFFD0B070);
+  static const navBarItemIconColorDeactive = Color(0xFFBDBDBD);
+  static const navBarItemTextColorDeactive = Color(0xFF979798);
 
   static const yellowTitleGradientFirst = Color(0xFFE5C990);
   static const yellowTitleGradientLast = Color(0xFFE4B046);
