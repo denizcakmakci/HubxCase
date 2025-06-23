@@ -1,3 +1,7 @@
+// ignore_for_file: inference_failure_on_function_invocation
+
+import 'dart:convert';
+
 import 'package:dio/dio.dart';
 
 class NetworkManager {
@@ -6,18 +10,29 @@ class NetworkManager {
 
   Future<T> get<T>({
     required String path,
+    required T Function(dynamic json) fromJson,
     Map<String, dynamic>? queryParameters,
     Map<String, dynamic>? headers,
     CancelToken? cancelToken,
   }) async {
     try {
-      final response = await dio.get<T>(
+      final response = await dio.get(
         path,
         queryParameters: queryParameters,
         options: Options(headers: headers),
         cancelToken: cancelToken,
       );
-      return response.data as T;
+      final raw = response.data;
+
+      dynamic jsonData;
+
+      if (raw is String) {
+        jsonData = jsonDecode(raw);
+      } else {
+        jsonData = raw;
+      }
+
+      return fromJson(jsonData);
     } on DioException catch (e) {
       throw Exception(e);
     }

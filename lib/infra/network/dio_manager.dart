@@ -9,6 +9,7 @@ abstract class DioManager {
 
   static final PrettyDioLogger _logInterceptor = PrettyDioLogger(
     requestBody: true,
+    responseHeader: true,
     maxWidth: 150,
   );
 
