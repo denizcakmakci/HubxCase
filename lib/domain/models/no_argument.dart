@@ -1,0 +1,3 @@
+class NoArgument {
+  const NoArgument();
+}
