@@ -43,7 +43,7 @@ class OnboardViewModel {
   void navigatePaywall(
     BuildContext context,
   ) {
-    // TODO(deniz): navigate paywall
+    context.router.navigate(const PaywallWrapperRoute());
   }
 
   void onboardButtonOnTap(BuildContext context, int currentPage) {

@@ -55,6 +55,16 @@ class AppTextStyles {
     );
   }
 
+  static TextStyle titleLarge(BuildContext context) {
+    final color = Theme.of(context).colorScheme.onSurface;
+    return GoogleFonts.roboto(
+      textStyle: Theme.of(context).textTheme.titleLarge,
+      color: color,
+      fontSize: 24,
+      fontWeight: FontWeight.w500,
+    );
+  }
+
   static TextStyle headlineMedium(BuildContext context) {
     final color = Theme.of(context).colorScheme.onSurfaceVariant;
     return GoogleFonts.roboto(

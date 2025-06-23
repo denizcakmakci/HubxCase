@@ -83,7 +83,7 @@ class _PaywallViewState extends State<PaywallView> {
                           },
                         );
                         if (!mounted) return;
-                        // TODO(deniz): navigate home
+                        context.router.replace(const HomeWrapperRoute());
                       },
                     ),
                   ),
@@ -96,7 +96,15 @@ class _PaywallViewState extends State<PaywallView> {
                 top: 40,
                 right: 24,
                 child: GestureDetector(
-                  onTap: () {},
+                  onTap: () {
+                    WidgetsBinding.instance.addPostFrameCallback(
+                      (_) async {
+                        await viewModel.setOnboardSeen();
+                      },
+                    );
+                    if (!mounted) return;
+                    context.router.replace(const HomeWrapperRoute());
+                  },
                   child: SvgPicture.asset(Assets.close),
                 ),
               ),

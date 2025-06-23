@@ -95,4 +95,31 @@ class AppLocalizationsTr extends AppLocalizations {
   @override
   String get termsPrivacyRestore =>
       'Kullanım Şartları  •  Gizlilik  •  Geri Yükle';
+
+  @override
+  String get hiPlantLover => 'Merhaba, bitki sever!';
+
+  @override
+  String get goodAfternoon => 'İyi öğleden sonralar! ⛅';
+
+  @override
+  String get searchForPlants => 'Bitki ara';
+
+  @override
+  String get freePremiumAvailable => 'ÜCRETSİZ Premium Mevcut';
+
+  @override
+  String get tapToUpgrade => 'Hesabınızı yükseltmek için dokunun!';
+
+  @override
+  String get home => 'Ana Sayfa';
+
+  @override
+  String get diagnose => 'Teşhis Et';
+
+  @override
+  String get myGarden => 'Bahçem';
+
+  @override
+  String get profile => 'Profil';
 }

@@ -118,5 +118,41 @@
     "termsPrivacyRestore": "Kullanım Şartları  •  Gizlilik  •  Geri Yükle",
     "@termsPrivacyRestore": {
         "description": "Kullanım Şartları, Gizlilik Politikası ve Geri Yükle seçeneklerinin birleşik etiketi"
+    },
+    "hiPlantLover": "Merhaba, bitki sever!",
+    "@hiPlantLover": {
+        "description": "Kullanıcı uygulamayı açtığında gösterilen karşılama mesajı"
+    },
+    "goodAfternoon": "İyi öğleden sonralar! ⛅",
+    "@goodAfternoon": {
+        "description": "Günün saatine göre gösterilen selamlama mesajı"
+    },
+    "searchForPlants": "Bitki ara",
+    "@searchForPlants": {
+        "description": "Bitki arama alanı için açıklama veya placeholder"
+    },
+    "freePremiumAvailable": "ÜCRETSİZ Premium Mevcut",
+    "@freePremiumAvailable": {
+        "description": "Ücretsiz premium teklifinin mevcut olduğunu belirten metin"
+    },
+    "tapToUpgrade": "Hesabınızı yükseltmek için dokunun!",
+    "@tapToUpgrade": {
+        "description": "Kullanıcıyı hesabını yükseltmeye teşvik eden CTA"
+    },
+    "home": "Ana Sayfa",
+    "@home": {
+        "description": "Ana ekran için navigasyon etiketi"
+    },
+    "diagnose": "Teşhis Et",
+    "@diagnose": {
+        "description": "Bitki teşhis ekranı için navigasyon etiketi"
+    },
+    "myGarden": "Bahçem",
+    "@myGarden": {
+        "description": "Kullanıcının bitkilerini gösteren ekran etiketi"
+    },
+    "profile": "Profil",
+    "@profile": {
+        "description": "Kullanıcının profil ekranı için navigasyon etiketi"
     }
 }

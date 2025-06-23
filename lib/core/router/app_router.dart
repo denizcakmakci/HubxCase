@@ -18,5 +18,18 @@ class AppRouter extends RootStackRouter {
       page: OnboardWrapperRoute.page,
       transitionsBuilder: TransitionsBuilders.fadeIn,
     ),
+    CustomRoute<PaywallWrapperRoute>(
+      page: PaywallWrapperRoute.page,
+      transitionsBuilder: TransitionsBuilders.fadeIn,
+    ),
+    AutoRoute(
+      page: MainTabRoute.page,
+      children: [
+        AutoRoute(page: HomeWrapperRoute.page, path: 'home'),
+        AutoRoute(page: DiagnoseRoute.page, path: 'diagnose'),
+        AutoRoute(page: MyGardenRoute.page, path: 'mygarden'),
+        AutoRoute(page: ProfileRoute.page, path: 'profile'),
+      ],
+    ),
   ];
 }
