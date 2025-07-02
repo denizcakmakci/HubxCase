@@ -12,7 +12,7 @@ class HomeSearch extends StatelessWidget {
   Widget build(BuildContext context) {
     final appStrings = AppLocalizations.of(context)!;
     return Stack(
-      alignment: AlignmentGeometry.center,
+      alignment: Alignment.center,
       children: [
         Image.asset(
           Assets.homePlants,
